@@ -44,6 +44,33 @@ export default [
     ]
   },
   {
+    title: 'Attendance',
+    icon: { icon: 'tabler-alarm' },
+    children: [
+      { title: 'Summary', to: 'attendance-summary' },
+      { title: 'Attendance', to: 'attendance-form' },
+    ]
+  },
+  {
+    title: 'Loan Management',
+    icon: { icon: 'tabler-wallet' },
+    children: [
+      { title: 'Request Loan', },
+      { title: 'Personal Loan', },
+      { title: 'Team Loan', },
+    ]
+  },
+  {
+    title: 'Payroll',
+    icon: { icon: 'tabler-brand-cashapp' },
+    children: [
+      { title: 'Summary', },
+      { title: 'Allowance', },
+      { title: 'Office Dept', },
+      { title: 'Operational Dept', },
+    ]
+  },
+  {
     title: 'Users',
     icon: { icon: 'tabler-users' },
     children: [
